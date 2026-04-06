@@ -1,0 +1,99 @@
+/* ═══════════════════════════════════════════
+   variables.css — Design Tokens
+   ═══════════════════════════════════════════ */
+
+:root {
+  /* ── Colors: Dark Theme (default) ── */
+  --clr-bg:        #080c14;
+  --clr-bg2:       #0d1220;
+  --clr-bg3:       #111828;
+  --clr-surface:   #141c2e;
+  --clr-surface2:  #1a2438;
+  --clr-border:    rgba(255, 255, 255, 0.07);
+  --clr-border2:   rgba(255, 255, 255, 0.12);
+
+  /* Accent palette */
+  --clr-cyan:      #38bdf8;
+  --clr-cyan-dim:  rgba(56, 189, 248, 0.12);
+  --clr-amber:     #fbbf24;
+  --clr-amber-dim: rgba(251, 191, 36, 0.12);
+  --clr-green:     #34d399;
+  --clr-green-dim: rgba(52, 211, 153, 0.12);
+  --clr-rose:      #fb7185;
+  --clr-rose-dim:  rgba(251, 113, 133, 0.12);
+  --clr-purple:    #a78bfa;
+  --clr-purple-dim:rgba(167, 139, 250, 0.12);
+
+  /* Text */
+  --clr-text:      #e8edf5;
+  --clr-text2:     #8b9ab5;
+  --clr-text3:     #4a5568;
+
+  /* Shadows */
+  --shadow-sm:   0 2px 8px rgba(0,0,0,0.3);
+  --shadow-md:   0 8px 24px rgba(0,0,0,0.4);
+  --shadow-lg:   0 20px 48px rgba(0,0,0,0.5);
+  --glow-cyan:   0 0 32px rgba(56,189,248,0.18);
+  --glow-amber:  0 0 32px rgba(251,191,36,0.15);
+
+  /* Spacing */
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 5rem;
+
+  /* Border radius */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Typography */
+  --font-display: 'Outfit', sans-serif;
+  --font-mono:    'DM Mono', monospace;
+  --font-body:    'Outfit', sans-serif;
+
+  /* Transitions */
+  --ease:    cubic-bezier(0.4, 0, 0.2, 1);
+  --trans:   0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  --trans-lg: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Nav height */
+  --nav-h: 64px;
+}
+
+/* ── Light Theme ── */
+[data-theme="light"] {
+  --clr-bg:        #f0f4fa;
+  --clr-bg2:       #e6ecf6;
+  --clr-bg3:       #dce4f0;
+  --clr-surface:   #ffffff;
+  --clr-surface2:  #f5f8ff;
+  --clr-border:    rgba(0, 0, 0, 0.08);
+  --clr-border2:   rgba(0, 0, 0, 0.14);
+
+  --clr-cyan:      #0284c7;
+  --clr-cyan-dim:  rgba(2, 132, 199, 0.1);
+  --clr-amber:     #d97706;
+  --clr-amber-dim: rgba(217, 119, 6, 0.1);
+  --clr-green:     #059669;
+  --clr-green-dim: rgba(5, 150, 105, 0.1);
+  --clr-rose:      #e11d48;
+  --clr-rose-dim:  rgba(225, 29, 72, 0.08);
+  --clr-purple:    #7c3aed;
+  --clr-purple-dim:rgba(124, 58, 237, 0.1);
+
+  --clr-text:      #0f172a;
+  --clr-text2:     #475569;
+  --clr-text3:     #94a3b8;
+
+  --shadow-sm:   0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md:   0 8px 24px rgba(0,0,0,0.1);
+  --shadow-lg:   0 20px 48px rgba(0,0,0,0.12);
+  --glow-cyan:   0 0 32px rgba(2,132,199,0.12);
+  --glow-amber:  0 0 32px rgba(217,119,6,0.1);
+}
